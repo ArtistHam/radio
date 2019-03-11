@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "radio",
+    "name": "dogs",
     "description": "A very interesting project.",
-    "slug": "radio",
+    "slug": "dogs",
     "privacy": "public",
     "sdkVersion": "31.0.0",
     "platforms": ["ios", "android"],
@@ -19,7 +19,11 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ArtistHam.dogs"
+    },
+    "android": {
+      "package": "com.ArtistHam.dogs"
     }
   }
 }
